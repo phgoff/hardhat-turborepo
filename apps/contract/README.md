@@ -5,8 +5,10 @@ This project demonstrates a basic Hardhat use case. It comes with a sample contr
 Try running some of the following tasks:
 
 ```shell
+pnpm run compile
+pnpm run test test/Lock.ts
+
 npx hardhat help
-npx hardhat test
 REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.ts
